@@ -25,6 +25,6 @@ build:
     - mvn clean install
     - mvn verify -P samples
     # generate all petstore sampless (client, servers, doc)
-    - ./bin/run-all-petstore 2>&1 > run-all-petstore.log
-  post_ci:
-    - tail run-all-petstore.log
+    #- ./bin/run-all-petstore 2>&1 > run-all-petstore.log
+    #  post_ci:
+    #    - tail run-all-petstore.log
