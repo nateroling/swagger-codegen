@@ -842,6 +842,7 @@
                 <module>samples/client/petstore/java/google-api-client</module>
                 <module>samples/client/petstore/kotlin/</module>
                 <!-- test non-java projects -->
+                <module>samples/client/petstore/python</module>
                 <module>samples/client/petstore/go</module>
                 <!-- servers -->
                 <module>samples/server/petstore/java-vertx/rx</module>
